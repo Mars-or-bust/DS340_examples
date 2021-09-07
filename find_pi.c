@@ -44,3 +44,4 @@ int main(int argc, char** argv) {
    // Finalize the MPI environment. No more MPI calls can be made after this
    MPI_Finalize();
 }
+
