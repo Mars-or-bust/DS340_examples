@@ -1,0 +1,41 @@
+/var/spool/slurm/d/job3564119/slurm_script: line 15: cd: /ocean/projects/iri180005p/bvw546/bvw546/lecture_materials/ring_passing: No such file or directory
+#-#-#Job started on r462.ib.bridges2.psc.edu at Sun Sep 12 12:45:17 EDT 2021 
+"ring_passing.c", line 21: error: too few arguments in function call
+          MPI_Recv();
+                   ^
+
+"ring_passing.c", line 25: error: expected an expression
+                 );
+                 ^
+
+"ring_passing.c", line 31: error: too few arguments in function call
+      MPI_Send();
+               ^
+
+"ring_passing.c", line 36: error: too few arguments in function call
+          MPI_Recv();
+                   ^
+
+"ring_passing.c", line 39: error: expected an expression
+                 );
+                 ^
+
+"ring_passing.c", line 17: warning: variable "token" was set but never used
+      int token;
+          ^
+
+5 errors detected in the compilation of "ring_passing.c".
+#-#-#Compilation completed and execution started at Sun Sep 12 12:45:17 EDT 2021
+--------------------------------------------------------------------------
+mpirun was unable to find the specified executable file, and therefore
+did not launch the job.  This error was first reported for process
+rank 0; it may have occurred for other processes as well.
+
+NOTE: A common cause for this error is misspelling a mpirun command
+      line parameter option (remember that mpirun interprets the first
+      unrecognized command line token as the executable).
+
+Node:       r462
+Executable: ring_passing.out
+--------------------------------------------------------------------------
+#-#-#Job Ended at Sun Sep 12 12:45:18 EDT 2021

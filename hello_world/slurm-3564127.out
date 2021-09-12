@@ -1,0 +1,4 @@
+/var/spool/slurm/d/job3564127/slurm_script: line 15: cd: /ocean/projects/iri180005p/bvw546/bvw546/lecture_materials/hello_world: No such file or directory
+#-#-#Job started on r175.ib.bridges2.psc.edu at Sun Sep 12 12:47:55 EDT 2021 
+#-#-#Compilation completed and execution started at Sun Sep 12 12:47:56 EDT 2021
+#-#-#Job Ended at Sun Sep 12 12:47:57 EDT 2021

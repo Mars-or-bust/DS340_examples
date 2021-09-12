@@ -1,0 +1,8 @@
+/var/spool/slurm/d/job3564124/slurm_script: line 15: cd: /ocean/projects/iri180005p/bvw546/bvw546/lecture_materials/ping_pong: No such file or directory
+#-#-#Job started on r431.ib.bridges2.psc.edu at Sun Sep 12 12:46:19 EDT 2021 
+"ping_pong.c", line 39: warning: last line of file ends without a newline
+  }
+   ^
+
+#-#-#Compilation completed and execution started at Sun Sep 12 12:46:19 EDT 2021
+#-#-#Job Ended at Sun Sep 12 12:46:21 EDT 2021
