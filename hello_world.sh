@@ -32,3 +32,4 @@ mpirun -n 6 hello_world.out > log.hello_world.out
 # Echo for debugging 
 echo "#-#-#Job Ended at `date`"
 
+
