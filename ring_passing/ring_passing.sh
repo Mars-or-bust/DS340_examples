@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # The PBS directives
-#SBATCH -N 2
+#SBATCH -N 6
 #SBATCH -p RM
 #SBATCH -n 8
 #SBATCH -t 00:01:00
@@ -27,7 +27,7 @@ mpicc ring_passing.c -o ring_passing.out
 echo "#-#-#Compilation completed and execution started at `date`"
 
 # Run
-mpirun -n 2 ring_passing.out > log.ring_passing.out
+mpirun -n 6 ring_passing.out > log.ring_passing.out
 
 # Echo for debugging 
 echo "#-#-#Job Ended at `date`"

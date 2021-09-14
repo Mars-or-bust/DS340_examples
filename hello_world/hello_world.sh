@@ -12,7 +12,7 @@
 module load openmpi
 
 # Change to MPI project directory
-cd $PROJECT/bvw546/lecture_materials/hello_world
+cd $PROJECT/lecture_materials/hello_world
 
 # This fixes common MPI errors
 export DAPL_DBG_TYPE="0"

@@ -1,5 +1,6 @@
 #include <mpi.h>
 #include <stdio.h>
+#include <math.h>
 
 int main(int argc, char** argv) {
 
@@ -24,9 +25,9 @@ int main(int argc, char** argv) {
    MPI_Bcast(&n, 1, MPI_INT, 0, MPI_COMM_WORLD);
 
    my_pi = 0;
-   h = (float) 2/n; // Size of each slice
-   start = (world_rank*2/world_size)-1; // Slices for this PE
-   end = ((world_rank+1)*2/world_size)-1;
+   h = (float) 1/n; // Size of each slice
+   start = (world_rank*1/world_size)-1; // Slices for this PE
+   end = ((world_rank+1)*1/world_size)-1;
 
 
    for (x = start; x < end; x= x +h)

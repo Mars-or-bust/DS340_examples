@@ -1,0 +1,9 @@
+#-#-#Job started on r163.ib.bridges2.psc.edu at Mon Sep 13 18:45:48 EDT 2021 
+"find_pi_new.c", line 1: catastrophic error: cannot open source file " stdio.h"
+  #include < stdio.h>
+                     ^
+
+1 catastrophic error detected in the compilation of "find_pi_new.c".
+Compilation terminated.
+#-#-#Compilation completed and execution started at Mon Sep 13 18:45:48 EDT 2021
+#-#-#Job Ended at Mon Sep 13 18:45:50 EDT 2021

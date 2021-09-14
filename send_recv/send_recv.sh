@@ -2,7 +2,7 @@
 
 # The PBS directives
 #SBATCH -N 2
-#SBATCH -p RM-shared
+#SBATCH -p RM
 #SBATCH -n 8
 #SBATCH -t 00:01:00
 #  Memory Request
@@ -12,7 +12,7 @@
 module load openmpi
 
 # Change to MPI project directory
-cd $PROJECT/bvw546/lecture_materials/send_recv
+cd $PROJECT/lecture_materials/send_recv
 
 # This fixes common MPI errors
 export DAPL_DBG_TYPE="0"

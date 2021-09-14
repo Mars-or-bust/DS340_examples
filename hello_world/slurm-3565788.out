@@ -1,0 +1,247 @@
+Defaulting to user installation because normal site-packages is not writeable
+Looking in links: /tmp/tmp1iov4o_1
+Processing /tmp/tmp1iov4o_1/setuptools-49.2.1-py3-none-any.whl
+Processing /tmp/tmp1iov4o_1/pip-20.2.1-py2.py3-none-any.whl
+Installing collected packages: setuptools, pip
+ERROR: After October 2020 you may experience errors when installing or updating packages. This is because pip will change the way that it resolves dependency conflicts.
+
+We recommend you use --use-feature=2020-resolver to test your packages with the new resolver before it becomes the default.
+
+tensorboard 2.4.1 requires six>=1.10.0, which is not installed.
+tensorboard 2.4.1 requires werkzeug>=0.11.15, which is not installed.
+pycocotools 2.0.2 requires cython>=0.27.3, which is not installed.
+pycocotools 2.0.2 requires matplotlib>=2.1.0, which is not installed.
+google-auth 1.27.1 requires six>=1.9.0, which is not installed.
+detectron2 0.5 requires cloudpickle, which is not installed.
+detectron2 0.5 requires future, which is not installed.
+detectron2 0.5 requires matplotlib, which is not installed.
+detectron2 0.5 requires Pillow>=7.1, which is not installed.
+detectron2 0.5 requires tqdm>4.29.0, which is not installed.
+Successfully installed pip-20.2.1 setuptools-49.2.1
+Defaulting to user installation because normal site-packages is not writeable
+Collecting mpi4py
+  Downloading mpi4py-3.1.1.tar.gz (2.4 MB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+    Preparing wheel metadata: started
+    Preparing wheel metadata: finished with status 'done'
+Building wheels for collected packages: mpi4py
+  Building wheel for mpi4py (PEP 517): started
+  Building wheel for mpi4py (PEP 517): finished with status 'error'
+  ERROR: Command errored out with exit status 1:
+   command: /jet/packages/spack/opt/spack/linux-centos8-zen2/gcc-10.2.0/python-3.8.6-jaihmn5fofhkpkdsskfz25ez6s2camcf/bin/python /jet/home/bvw546/.local/lib/python3.8/site-packages/pip/_vendor/pep517/_in_process.py build_wheel /tmp/tmp8fiyy7y0
+       cwd: /tmp/pip-install-h3hhbqqc/mpi4py
+  Complete output (168 lines):
+  running bdist_wheel
+  running build
+  running build_src
+  running build_py
+  creating build
+  creating build/lib.linux-x86_64-3.8
+  creating build/lib.linux-x86_64-3.8/mpi4py
+  copying src/mpi4py/__init__.py -> build/lib.linux-x86_64-3.8/mpi4py
+  copying src/mpi4py/__main__.py -> build/lib.linux-x86_64-3.8/mpi4py
+  copying src/mpi4py/bench.py -> build/lib.linux-x86_64-3.8/mpi4py
+  copying src/mpi4py/run.py -> build/lib.linux-x86_64-3.8/mpi4py
+  creating build/lib.linux-x86_64-3.8/mpi4py/futures
+  copying src/mpi4py/futures/__init__.py -> build/lib.linux-x86_64-3.8/mpi4py/futures
+  copying src/mpi4py/futures/__main__.py -> build/lib.linux-x86_64-3.8/mpi4py/futures
+  copying src/mpi4py/futures/_base.py -> build/lib.linux-x86_64-3.8/mpi4py/futures
+  copying src/mpi4py/futures/_core.py -> build/lib.linux-x86_64-3.8/mpi4py/futures
+  copying src/mpi4py/futures/_lib.py -> build/lib.linux-x86_64-3.8/mpi4py/futures
+  copying src/mpi4py/futures/aplus.py -> build/lib.linux-x86_64-3.8/mpi4py/futures
+  copying src/mpi4py/futures/pool.py -> build/lib.linux-x86_64-3.8/mpi4py/futures
+  copying src/mpi4py/futures/server.py -> build/lib.linux-x86_64-3.8/mpi4py/futures
+  creating build/lib.linux-x86_64-3.8/mpi4py/util
+  copying src/mpi4py/util/__init__.py -> build/lib.linux-x86_64-3.8/mpi4py/util
+  copying src/mpi4py/util/dtlib.py -> build/lib.linux-x86_64-3.8/mpi4py/util
+  copying src/mpi4py/util/pkl5.py -> build/lib.linux-x86_64-3.8/mpi4py/util
+  copying src/mpi4py/py.typed -> build/lib.linux-x86_64-3.8/mpi4py
+  copying src/mpi4py/MPI.pyi -> build/lib.linux-x86_64-3.8/mpi4py
+  copying src/mpi4py/__init__.pyi -> build/lib.linux-x86_64-3.8/mpi4py
+  copying src/mpi4py/__main__.pyi -> build/lib.linux-x86_64-3.8/mpi4py
+  copying src/mpi4py/bench.pyi -> build/lib.linux-x86_64-3.8/mpi4py
+  copying src/mpi4py/dl.pyi -> build/lib.linux-x86_64-3.8/mpi4py
+  copying src/mpi4py/run.pyi -> build/lib.linux-x86_64-3.8/mpi4py
+  copying src/mpi4py/MPI.pxd -> build/lib.linux-x86_64-3.8/mpi4py
+  copying src/mpi4py/__init__.pxd -> build/lib.linux-x86_64-3.8/mpi4py
+  copying src/mpi4py/libmpi.pxd -> build/lib.linux-x86_64-3.8/mpi4py
+  creating build/lib.linux-x86_64-3.8/mpi4py/include
+  creating build/lib.linux-x86_64-3.8/mpi4py/include/mpi4py
+  copying src/mpi4py/include/mpi4py/mpi4py.MPI.h -> build/lib.linux-x86_64-3.8/mpi4py/include/mpi4py
+  copying src/mpi4py/include/mpi4py/mpi4py.MPI_api.h -> build/lib.linux-x86_64-3.8/mpi4py/include/mpi4py
+  copying src/mpi4py/include/mpi4py/mpi4py.h -> build/lib.linux-x86_64-3.8/mpi4py/include/mpi4py
+  copying src/mpi4py/include/mpi4py/mpi4py.i -> build/lib.linux-x86_64-3.8/mpi4py/include/mpi4py
+  copying src/mpi4py/include/mpi4py/mpi.pxi -> build/lib.linux-x86_64-3.8/mpi4py/include/mpi4py
+  copying src/mpi4py/futures/__init__.pyi -> build/lib.linux-x86_64-3.8/mpi4py/futures
+  copying src/mpi4py/futures/__main__.pyi -> build/lib.linux-x86_64-3.8/mpi4py/futures
+  copying src/mpi4py/futures/_core.pyi -> build/lib.linux-x86_64-3.8/mpi4py/futures
+  copying src/mpi4py/futures/_lib.pyi -> build/lib.linux-x86_64-3.8/mpi4py/futures
+  copying src/mpi4py/futures/aplus.pyi -> build/lib.linux-x86_64-3.8/mpi4py/futures
+  copying src/mpi4py/futures/pool.pyi -> build/lib.linux-x86_64-3.8/mpi4py/futures
+  copying src/mpi4py/futures/server.pyi -> build/lib.linux-x86_64-3.8/mpi4py/futures
+  copying src/mpi4py/util/__init__.pyi -> build/lib.linux-x86_64-3.8/mpi4py/util
+  copying src/mpi4py/util/dtlib.pyi -> build/lib.linux-x86_64-3.8/mpi4py/util
+  copying src/mpi4py/util/pkl5.pyi -> build/lib.linux-x86_64-3.8/mpi4py/util
+  running build_clib
+  MPI configuration: [mpi] from 'mpi.cfg'
+  MPI C compiler:    /opt/packages/openmpi/nvidia/4.0.5-nvhpc21.7/Linux_x86_64/21.7/comm_libs/mpi/bin/mpicc
+  MPI C++ compiler:  /opt/packages/openmpi/nvidia/4.0.5-nvhpc21.7/Linux_x86_64/21.7/comm_libs/mpi/bin/mpicxx
+  MPI F compiler:    /opt/packages/openmpi/nvidia/4.0.5-nvhpc21.7/Linux_x86_64/21.7/comm_libs/mpi/bin/mpifort
+  MPI F90 compiler:  /opt/packages/openmpi/nvidia/4.0.5-nvhpc21.7/Linux_x86_64/21.7/comm_libs/mpi/bin/mpif90
+  MPI F77 compiler:  /opt/packages/openmpi/nvidia/4.0.5-nvhpc21.7/Linux_x86_64/21.7/comm_libs/mpi/bin/mpif77
+  checking for library 'lmpe' ...
+  /opt/packages/openmpi/nvidia/4.0.5-nvhpc21.7/Linux_x86_64/21.7/comm_libs/mpi/bin/mpicc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -fPIC -c _configtest.c -o _configtest.o
+  nvc-Error-Unknown switch: -Wno-unused-result
+  nvc-Error-Unknown switch: -fwrapv
+  failure.
+  removing: _configtest.c _configtest.o
+  building 'mpe' dylib library
+  creating build/temp.linux-x86_64-3.8
+  creating build/temp.linux-x86_64-3.8/src
+  creating build/temp.linux-x86_64-3.8/src/lib-pmpi
+  /opt/packages/openmpi/nvidia/4.0.5-nvhpc21.7/Linux_x86_64/21.7/comm_libs/mpi/bin/mpicc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -fPIC -c src/lib-pmpi/mpe.c -o build/temp.linux-x86_64-3.8/src/lib-pmpi/mpe.o
+  nvc-Error-Unknown switch: -Wno-unused-result
+  nvc-Error-Unknown switch: -fwrapv
+  warning: build_clib: command '/opt/packages/openmpi/nvidia/4.0.5-nvhpc21.7/Linux_x86_64/21.7/comm_libs/mpi/bin/mpicc' failed with exit status 1
+  
+  warning: build_clib: building optional library "mpe" failed
+  
+  checking for library 'vt-mpi' ...
+  /opt/packages/openmpi/nvidia/4.0.5-nvhpc21.7/Linux_x86_64/21.7/comm_libs/mpi/bin/mpicc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -fPIC -c _configtest.c -o _configtest.o
+  nvc-Error-Unknown switch: -Wno-unused-result
+  nvc-Error-Unknown switch: -fwrapv
+  failure.
+  removing: _configtest.c _configtest.o
+  checking for library 'vt.mpi' ...
+  /opt/packages/openmpi/nvidia/4.0.5-nvhpc21.7/Linux_x86_64/21.7/comm_libs/mpi/bin/mpicc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -fPIC -c _configtest.c -o _configtest.o
+  nvc-Error-Unknown switch: -Wno-unused-result
+  nvc-Error-Unknown switch: -fwrapv
+  failure.
+  removing: _configtest.c _configtest.o
+  building 'vt' dylib library
+  /opt/packages/openmpi/nvidia/4.0.5-nvhpc21.7/Linux_x86_64/21.7/comm_libs/mpi/bin/mpicc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -fPIC -c src/lib-pmpi/vt.c -o build/temp.linux-x86_64-3.8/src/lib-pmpi/vt.o
+  nvc-Error-Unknown switch: -Wno-unused-result
+  nvc-Error-Unknown switch: -fwrapv
+  warning: build_clib: command '/opt/packages/openmpi/nvidia/4.0.5-nvhpc21.7/Linux_x86_64/21.7/comm_libs/mpi/bin/mpicc' failed with exit status 1
+  
+  warning: build_clib: building optional library "vt" failed
+  
+  checking for library 'vt-mpi' ...
+  /opt/packages/openmpi/nvidia/4.0.5-nvhpc21.7/Linux_x86_64/21.7/comm_libs/mpi/bin/mpicc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -fPIC -c _configtest.c -o _configtest.o
+  nvc-Error-Unknown switch: -Wno-unused-result
+  nvc-Error-Unknown switch: -fwrapv
+  failure.
+  removing: _configtest.c _configtest.o
+  checking for library 'vt.mpi' ...
+  /opt/packages/openmpi/nvidia/4.0.5-nvhpc21.7/Linux_x86_64/21.7/comm_libs/mpi/bin/mpicc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -fPIC -c _configtest.c -o _configtest.o
+  nvc-Error-Unknown switch: -Wno-unused-result
+  nvc-Error-Unknown switch: -fwrapv
+  failure.
+  removing: _configtest.c _configtest.o
+  building 'vt-mpi' dylib library
+  /opt/packages/openmpi/nvidia/4.0.5-nvhpc21.7/Linux_x86_64/21.7/comm_libs/mpi/bin/mpicc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -fPIC -c src/lib-pmpi/vt-mpi.c -o build/temp.linux-x86_64-3.8/src/lib-pmpi/vt-mpi.o
+  nvc-Error-Unknown switch: -Wno-unused-result
+  nvc-Error-Unknown switch: -fwrapv
+  warning: build_clib: command '/opt/packages/openmpi/nvidia/4.0.5-nvhpc21.7/Linux_x86_64/21.7/comm_libs/mpi/bin/mpicc' failed with exit status 1
+  
+  warning: build_clib: building optional library "vt-mpi" failed
+  
+  checking for library 'vt-hyb' ...
+  /opt/packages/openmpi/nvidia/4.0.5-nvhpc21.7/Linux_x86_64/21.7/comm_libs/mpi/bin/mpicc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -fPIC -c _configtest.c -o _configtest.o
+  nvc-Error-Unknown switch: -Wno-unused-result
+  nvc-Error-Unknown switch: -fwrapv
+  failure.
+  removing: _configtest.c _configtest.o
+  checking for library 'vt.ompi' ...
+  /opt/packages/openmpi/nvidia/4.0.5-nvhpc21.7/Linux_x86_64/21.7/comm_libs/mpi/bin/mpicc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -fPIC -c _configtest.c -o _configtest.o
+  nvc-Error-Unknown switch: -Wno-unused-result
+  nvc-Error-Unknown switch: -fwrapv
+  failure.
+  removing: _configtest.c _configtest.o
+  building 'vt-hyb' dylib library
+  /opt/packages/openmpi/nvidia/4.0.5-nvhpc21.7/Linux_x86_64/21.7/comm_libs/mpi/bin/mpicc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -fPIC -c src/lib-pmpi/vt-hyb.c -o build/temp.linux-x86_64-3.8/src/lib-pmpi/vt-hyb.o
+  nvc-Error-Unknown switch: -Wno-unused-result
+  nvc-Error-Unknown switch: -fwrapv
+  warning: build_clib: command '/opt/packages/openmpi/nvidia/4.0.5-nvhpc21.7/Linux_x86_64/21.7/comm_libs/mpi/bin/mpicc' failed with exit status 1
+  
+  warning: build_clib: building optional library "vt-hyb" failed
+  
+  running build_ext
+  MPI configuration: [mpi] from 'mpi.cfg'
+  MPI C compiler:    /opt/packages/openmpi/nvidia/4.0.5-nvhpc21.7/Linux_x86_64/21.7/comm_libs/mpi/bin/mpicc
+  MPI C++ compiler:  /opt/packages/openmpi/nvidia/4.0.5-nvhpc21.7/Linux_x86_64/21.7/comm_libs/mpi/bin/mpicxx
+  MPI F compiler:    /opt/packages/openmpi/nvidia/4.0.5-nvhpc21.7/Linux_x86_64/21.7/comm_libs/mpi/bin/mpifort
+  MPI F90 compiler:  /opt/packages/openmpi/nvidia/4.0.5-nvhpc21.7/Linux_x86_64/21.7/comm_libs/mpi/bin/mpif90
+  MPI F77 compiler:  /opt/packages/openmpi/nvidia/4.0.5-nvhpc21.7/Linux_x86_64/21.7/comm_libs/mpi/bin/mpif77
+  checking for dlopen() availability ...
+  checking for header 'dlfcn.h' ...
+  /opt/packages/spack/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-tfzxq7udz2a53dmujvasy4uz33t27iwv/bin/gcc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -fPIC -I/jet/packages/spack/opt/spack/linux-centos8-zen2/gcc-10.2.0/python-3.8.6-jaihmn5fofhkpkdsskfz25ez6s2camcf/include/python3.8 -c _configtest.c -o _configtest.o
+  success!
+  removing: _configtest.c _configtest.o
+  success!
+  checking for library 'dl' ...
+  /opt/packages/spack/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-tfzxq7udz2a53dmujvasy4uz33t27iwv/bin/gcc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -fPIC -I/jet/packages/spack/opt/spack/linux-centos8-zen2/gcc-10.2.0/python-3.8.6-jaihmn5fofhkpkdsskfz25ez6s2camcf/include/python3.8 -c _configtest.c -o _configtest.o
+  /opt/packages/spack/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-tfzxq7udz2a53dmujvasy4uz33t27iwv/bin/gcc _configtest.o -L/jet/packages/spack/opt/spack/linux-centos8-zen2/gcc-10.2.0/python-3.8.6-jaihmn5fofhkpkdsskfz25ez6s2camcf/lib -Lbuild/temp.linux-x86_64-3.8 -Wl,--enable-new-dtags,-R/jet/packages/spack/opt/spack/linux-centos8-zen2/gcc-10.2.0/python-3.8.6-jaihmn5fofhkpkdsskfz25ez6s2camcf/lib -ldl -o _configtest
+  success!
+  removing: _configtest.c _configtest.o _configtest
+  checking for function 'dlopen' ...
+  /opt/packages/spack/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-tfzxq7udz2a53dmujvasy4uz33t27iwv/bin/gcc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -fPIC -I/jet/packages/spack/opt/spack/linux-centos8-zen2/gcc-10.2.0/python-3.8.6-jaihmn5fofhkpkdsskfz25ez6s2camcf/include/python3.8 -c _configtest.c -o _configtest.o
+  /opt/packages/spack/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-tfzxq7udz2a53dmujvasy4uz33t27iwv/bin/gcc _configtest.o -L/jet/packages/spack/opt/spack/linux-centos8-zen2/gcc-10.2.0/python-3.8.6-jaihmn5fofhkpkdsskfz25ez6s2camcf/lib -Lbuild/temp.linux-x86_64-3.8 -Wl,--enable-new-dtags,-R/jet/packages/spack/opt/spack/linux-centos8-zen2/gcc-10.2.0/python-3.8.6-jaihmn5fofhkpkdsskfz25ez6s2camcf/lib -ldl -o _configtest
+  success!
+  removing: _configtest.c _configtest.o _configtest
+  building 'mpi4py.dl' extension
+  /opt/packages/spack/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-tfzxq7udz2a53dmujvasy4uz33t27iwv/bin/gcc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -fPIC -DHAVE_DLFCN_H=1 -DHAVE_DLOPEN=1 -I/jet/packages/spack/opt/spack/linux-centos8-zen2/gcc-10.2.0/python-3.8.6-jaihmn5fofhkpkdsskfz25ez6s2camcf/include/python3.8 -c src/dynload.c -o build/temp.linux-x86_64-3.8/src/dynload.o
+  /jet/packages/spack/opt/spack/linux-centos8-zen/gcc-8.3.1/gcc-10.2.0-tfzxq7udz2a53dmujvasy4uz33t27iwv/bin/gcc -pthread -shared -L/jet/packages/spack/opt/spack/linux-centos8-zen2/gcc-10.2.0/gettext-0.21-2zusk3zerjuwltyzns7rlpqgdih6y4w5/lib -L/jet/packages/spack/opt/spack/linux-centos8-zen2/gcc-10.2.0/readline-8.0-5knyycilfqlyjjntb7yjdxmu327w7dkl/lib -L/jet/packages/spack/opt/spack/linux-centos8-zen2/gcc-10.2.0/ncurses-6.2-hznv2jsuev33sr4kgpyjdl6tbycbhmwt/lib -L/jet/packages/spack/opt/spack/linux-centos8-zen2/gcc-10.2.0/openssl-1.1.1i-n25hsevfsxf6sxhbxm7mig7vnyowvp4x/lib -L/jet/packages/spack/opt/spack/linux-centos8-zen2/gcc-10.2.0/sqlite-3.33.0-dg5dyktzmsltzp7w2pdm4cgospmefkvr/lib -L/jet/packages/spack/opt/spack/linux-centos8-zen2/gcc-10.2.0/gdbm-1.18.1-y2hrkqvoiqvsm2mv3aexqrjdkegb5dhs/lib -L/jet/packages/spack/opt/spack/linux-centos8-zen2/gcc-10.2.0/zlib-1.2.11-uw42aiy6225mpwyeha5txnsde4pxaey2/lib -L/jet/packages/spack/opt/spack/linux-centos8-zen2/gcc-10.2.0/bzip2-1.0.8-72rw76qwcjufmomjqdldjilz2oeecjrx/lib -L/jet/packages/spack/opt/spack/linux-centos8-zen2/gcc-10.2.0/xz-5.2.5-tnkfg2wegm2rnfqdwfnroclzam4qrxca/lib -L/jet/packages/spack/opt/spack/linux-centos8-zen2/gcc-10.2.0/expat-2.2.10-grguipxxnciycsmllwr6myjmpajxbkqz/lib -L/jet/packages/spack/opt/spack/linux-centos8-zen2/gcc-10.2.0/libffi-3.3-tzxzh4ht5w3cijtjmn4ughfr7llzrojx/lib64 -L/jet/packages/spack/opt/spack/linux-centos8-zen2/gcc-10.2.0/libuuid-1.0.3-nhh2ye62hewyjovqhr62atwio563dt33/lib build/temp.linux-x86_64-3.8/src/dynload.o -L/jet/packages/spack/opt/spack/linux-centos8-zen2/gcc-10.2.0/python-3.8.6-jaihmn5fofhkpkdsskfz25ez6s2camcf/lib -Lbuild/temp.linux-x86_64-3.8 -Wl,--enable-new-dtags,-R/jet/packages/spack/opt/spack/linux-centos8-zen2/gcc-10.2.0/python-3.8.6-jaihmn5fofhkpkdsskfz25ez6s2camcf/lib -ldl -o build/lib.linux-x86_64-3.8/mpi4py/dl.cpython-38-x86_64-linux-gnu.so
+  checking for MPI compile and link ...
+  /opt/packages/openmpi/nvidia/4.0.5-nvhpc21.7/Linux_x86_64/21.7/comm_libs/mpi/bin/mpicc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -fPIC -I/jet/packages/spack/opt/spack/linux-centos8-zen2/gcc-10.2.0/python-3.8.6-jaihmn5fofhkpkdsskfz25ez6s2camcf/include/python3.8 -c _configtest.c -o _configtest.o
+  nvc-Error-Unknown switch: -Wno-unused-result
+  nvc-Error-Unknown switch: -fwrapv
+  failure.
+  removing: _configtest.c _configtest.o
+  error: Cannot compile MPI programs. Check your configuration!!!
+  ----------------------------------------
+  ERROR: Failed building wheel for mpi4py
+Failed to build mpi4py
+ERROR: Could not build wheels for mpi4py which use PEP 517 and cannot be installed directly
+WARNING: You are using pip version 20.2.1; however, version 21.2.4 is available.
+You should consider upgrading via the '/jet/packages/spack/opt/spack/linux-centos8-zen2/gcc-10.2.0/python-3.8.6-jaihmn5fofhkpkdsskfz25ez6s2camcf/bin/python -m pip install --upgrade pip' command.
+#-#-#Job started on r346.ib.bridges2.psc.edu at Sun Sep 12 21:52:39 EDT 2021 
+  File "hello_py.sh", line 12
+    module load openmpi
+           ^
+SyntaxError: invalid syntax
+  File "hello_py.sh", line 12
+    module load openmpi
+           ^
+SyntaxError: invalid syntax
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+  File "hello_py.sh", line 12
+    module load openmpi
+           ^
+SyntaxError: invalid syntax
+  File "hello_py.sh", line 12
+    module load openmpi
+           ^
+SyntaxError: invalid syntax
+  File "hello_py.sh", line 12
+    module load openmpi
+           ^
+SyntaxError: invalid syntax
+  File "hello_py.sh", line 12
+    module load openmpi
+           ^
+SyntaxError: invalid syntax
+--------------------------------------------------------------------------
+mpiexec detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[19086,1],0]
+  Exit code:    1
+--------------------------------------------------------------------------
+#-#-#Job Ended at Sun Sep 12 21:52:57 EDT 2021
